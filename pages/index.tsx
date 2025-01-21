@@ -29,7 +29,7 @@ const transition: { duration: number; ease: any } = {
 // const fetcher = (url: any) => fetch(url).then((res) => res.json());
 
 const index: React.FC<indexProps> = () => {
-  const [speakerState, setSpeakerState] = useState("muted");
+  // const [speakerState, setSpeakerState] = useState("muted");
   const [isToggleOpen, setIsToggleOpen] = useState<boolean>(false);
   // const { data: reviews, error } = useSwr("/api/tweets", fetcher);
 
