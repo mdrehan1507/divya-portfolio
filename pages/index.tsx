@@ -7,12 +7,12 @@ import ReactGa from "react-ga";
 
 interface indexProps {}
 
-interface Ireply {
-  id: number;
-  name: string;
-  userName: string;
-  reply: string;
-}
+// interface Ireply {
+//   id: number;
+//   name: string;
+//   userName: string;
+//   reply: string;
+// }
 
 const locomotiveScroll =
   typeof window !== `undefined` ? require("locomotive-scroll").default : null;
@@ -378,7 +378,7 @@ const index: React.FC<indexProps> = () => {
                 data-displacement="webp/myDistorsionImage.webp"
               >
                 <img src="webp/3D.jpg" alt="safarika" />
-                <img src="webp/3d_animate.jpg" alt="safarika logo" />
+                <img src="webp/3d_animate.jpg   " alt="safarika logo" />
               </div>
               <div className="project-card__right">
                 <h2
