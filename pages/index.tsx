@@ -79,10 +79,10 @@ const index: React.FC<indexProps> = () => {
     );
 
     // header cursor
-    const cursor = document.querySelector(".cursor");
-    window.onmousemove = (e: any) => {
-      cursor!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX}px;`);
-    };
+    // const cursor = document.querySelector(".cursor");
+    // window.onmousemove = (e: any) => {
+    //   cursor!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX}px;`);
+    // };
 
     console.clear();
     console.log.apply(console, [
@@ -98,17 +98,17 @@ const index: React.FC<indexProps> = () => {
     ]);
   }, []);
 
-  const handleSpeaker = () => {
-    const audio = document.querySelector("#audioPlayer") as HTMLVideoElement;
+  // const handleSpeaker = () => {
+  //   const audio = document.querySelector("#audioPlayer") as HTMLVideoElement;
 
-    if (speakerState === "muted") {
-      setSpeakerState("unmuted");
-      audio.pause();
-    } else {
-      setSpeakerState("muted");
-      audio.play();
-    }
-  };
+  //   if (speakerState === "muted") {
+  //     setSpeakerState("unmuted");
+  //     audio.pause();
+  //   } else {
+  //     setSpeakerState("muted");
+  //     audio.play();
+  //   }
+  // };
 
   function toggleBodyScroll(isToggleOpen: boolean) {
     if (isToggleOpen === false) {
@@ -157,9 +157,9 @@ const index: React.FC<indexProps> = () => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content="https://adeolaadeoti.xyz/" />
         </Head>
-        <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
+        {/* <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
-        </audio>
+        </audio> */}
         <motion.div
           data-scroll
           data-scroll-sticky
@@ -173,7 +173,7 @@ const index: React.FC<indexProps> = () => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
+              <img src="svg/Divya_logo_svg.svg" alt="adeola logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
@@ -190,7 +190,7 @@ const index: React.FC<indexProps> = () => {
             </motion.div>
           </div>
         </motion.div>
-        <div className="cursor"></div>
+        {/* <div className="cursor"></div> */}
         <Navigation
           isOpen={isToggleOpen}
           toggleOpen={() => toggleBodyScroll(isToggleOpen)}
@@ -218,7 +218,7 @@ const index: React.FC<indexProps> = () => {
           </header>
           <div className="header__footer">
             <div className="header__footer--left">
-              <div className="speaker">
+              {/* <div className="speaker">
                 <div
                   onClick={handleSpeaker}
                   className={`${"speaker__toggle"} ${
@@ -264,17 +264,17 @@ const index: React.FC<indexProps> = () => {
                       fill="#F2F2F2"
                       className="rect3-anim"
                     />
-                    {/* <rect
+                    <rect
                       x="13.2"
                       y="1.06665"
                       width="1.4"
                       height="10"
                       fill="#F2F2F2"
                       className="rect4-anim"
-                    /> */}
+                    />
                   </svg>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="header__footer--right">
               <a
@@ -429,8 +429,8 @@ const index: React.FC<indexProps> = () => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/heatrow-1.webp" alt="heatrow" />
-                <img src="webp/heatrow-2.webp" alt="heatrow logo" />
+                <img src="webp/Good-reads.jpg" alt="heatrow" />
+                <img src="webp/Good-reads Back.jpg" alt="heatrow logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -459,7 +459,7 @@ const index: React.FC<indexProps> = () => {
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/heatrow"
+                    href="https://github.com/ChoudhariDivya003"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
@@ -476,7 +476,7 @@ const index: React.FC<indexProps> = () => {
                 data-displacement="webp/myDistorsionImage.webp"
               >
                 <img src="webp/adeola-1.webp" alt="adeola model" />
-                <img src="webp/adeola-2.webp" alt="adeola logo" />
+                <img src="webp/Divya-logoss.jpg" alt="adeola logo" />
               </div>
               <div className="project-card__right">
                 <h2
