@@ -492,7 +492,7 @@ const index: React.FC<indexProps> = () => {
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
+                  href="https://github.com/ChoudhariDivya003/divya-portfolio"
                   className="project-card__link"
                 >
                   VIEW SOURCE CODE
@@ -501,14 +501,14 @@ const index: React.FC<indexProps> = () => {
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://dribbble.com/shots/12338926-Adeola-Adeoti-Portfolio"
+                    href="https://dribbble.com/divyaa22o"
                   >
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
+                    href="https://github.com/ChoudhariDivya003/divya-portfolio"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
