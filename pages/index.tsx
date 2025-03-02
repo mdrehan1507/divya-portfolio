@@ -349,23 +349,23 @@ const index: React.FC<indexProps> = () => {
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://alexxandria.vercel.app/"
+                  href="https://github.com/ChoudhariDivya003/ShareMe"
                   className="project-card__link"
                 >
-                  VISIT THE WEBSITE
+                  VISIT THE REPOSITORY
                 </a>
-                <div className="project-card__socials">
+                {/* <div className="project-card__socials">
                   <a href="#">
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/alexxandria"
+                    href="https://github.com/ChoudhariDivya003/ShareMe"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -395,27 +395,27 @@ const index: React.FC<indexProps> = () => {
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://safarika-adeola.netlify.app/"
+                  href="https://www.research.auradigital.in/"
                   className="project-card__link"
                 >
-                  VISIT THE WEBSITE
+                  VISIT THE REPOSITORY
                 </a>
-                <div className="project-card__socials">
+                {/* <div className="project-card__socials">
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://dribbble.com/shots/12361426-Safarika-Adventure"
+                    href="#"
                   >
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/adeolaadeoti/safarika"
+                    href="#"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -445,25 +445,25 @@ const index: React.FC<indexProps> = () => {
                   Reading
                 </h2>
                 <a
-                  href="https://heatrow.vercel.app/"
+                  href="https://github.com/ChoudhariDivya003/Online_Book_Reading"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
                 >
-                  VISIT THE WEBSITE
+                  VISIT THE REPOSITORY
                 </a>
-                <div className="project-card__socials">
+                {/* <div className="project-card__socials">
                   <a href="#">
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
                     rel="noopener"
                     target="_blank"
-                    href="https://github.com/ChoudhariDivya003"
+                    href="https://github.com/ChoudhariDivya003/Online_Book_Reading"
                   >
                     <img src="svg/github.svg" alt="github icon" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
