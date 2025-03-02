@@ -105,10 +105,10 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           <a
             target="_blank"
             rel="noopener"
-            href="https://alexxandria.vercel.app/"
+            href="https://github.com/ChoudhariDivya003/ShareMe"
             className="navigation-bottom__projects-card"
           >
-            <img src="/webp/shareme.webp" alt="alexxandria" />
+            <img src="/webp/Shareme_front.jpg" alt="alexxandria" />
             <h2>
               ShareMe
               <br />
@@ -116,12 +116,12 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             </h2>
           </a>
           <a
-            href="https://safarika-adeola.netlify.app/"
+            href="https://www.research.auradigital.in/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/safarika-nav.webp" alt="safarika" />
+            <img src="webp/3D.jpg" alt="safarika" />
             <h2>Revolutionalizing
               <br />
               Shopping<br >
@@ -130,12 +130,12 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             </h2>
           </a>
           <a
-            href="https://adeolaadeoti.netlify.app/"
+            href="https://github.com/ChoudhariDivya003/Online_Book_Reading"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/adeola-1.webp" alt="adeola" />
+            <img src="webp/Good-reads.jpg" alt="adeola" />
             <h2>
               Online Book
               <br />
